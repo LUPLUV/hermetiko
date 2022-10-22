@@ -15,26 +15,24 @@
             <div class="nav-links-home nav-links-link">
                 Home
             </div>
-            <div class="nav-links-lösungen nav-links-link">
-                Lösungen
+            <div class="dropdown">
+                <div class="nav-links-lösungen nav-links-link" onclick="window.open('./lösungen/', '_self')">
+                    Lösungen <i class='bx bx-chevron-down more' ></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Neigungsschalter</a>
+                    <a href="#">Magnetschalter</a>
+                    <a href="#">Reedschalter</a>
+                </div>
             </div>
-            <div class="nav-links-neigungsschalter nav-links-link">
-                Neigungsschalter
-            </div>
-            <div class="nav-links-magnetschalter nav-links-link">
-                Magnetschalter
-            </div>
-            <div class="nav-links-reedschalter nav-links-link">
-                Reedschalter
-            </div>
-            <div class="nav-links-contact">
+            <div class="nav-links-contact" onclick="window.open('kontakt/', '_self')">
                 Kontakt
             </div>
         </div>
     </header>
     <div class="section-main">
         <div class="info-container">
-            <h1>Hermetiko</h1>
+            <h1>Über uns</h1>
             <p>
                 Werde jetzt Kunde
                 <br>
@@ -53,14 +51,24 @@
                  natus earum voluptatem odit cum deleniti exerci
             </p>
             <div class="flex">
-            <div class="info-container-button-lösungen">
+            <div class="info-container-button-lösungen" onclick="window.open('lösungen/', '_self')">
                 Lösungen
             </div>
-            <div class="info-container-button-contact">
+            <div class="info-container-button-contact" onclick="window.open('kontakt/', '_self')">
                 Kontakt
             </div>
             </div>
         </div>
-    </section>
+</div>
+    <footer class="footer">
+        <img src="/assets/HERMETIKO-HORIZONTAL.png" alt="" class="nav-logo footer-logo">
+        <div class="footer-links1">
+            <div class="footer-links1-imprint">
+                Impressum
+            </div>
+            •
+            .
+        </div>
+</footer>
 </body>
 </html>
